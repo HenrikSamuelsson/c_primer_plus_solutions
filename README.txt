@@ -17,6 +17,6 @@ A classic C programmming learning book aimed at beginners.
 
 Exercise Solutions
 ==================
-Trying my best to keep the solutions to the exercises correct but there will probably be numeruos small and big mistakes as the collection grows.
+Trying my best to keep the solutions to the exercises correct but there will probably be numeruos small and big mistakes as the collection of exercises grows.
 
 The comments in the exercises that begin with /** are doxygen tags that can be used to generate documentiaton.
