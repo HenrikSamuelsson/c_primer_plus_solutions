@@ -9,12 +9,9 @@ exercises in the book here. Might be useful to others that are reading the book 
 
 Book Details
 ------------
-Title: C Primer Plus, Fifth Edition
-
-Author: Stephen Prata
-
-ISBN: 0-672-32696-5
-
+Title: C Primer Plus, Fifth Edition  
+Author: Stephen Prata  
+ISBN: 0-672-32696-5  
 
 A classic C programmming learning book aimed at beginners.
 
