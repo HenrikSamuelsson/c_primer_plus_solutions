@@ -1,8 +1,9 @@
-Markup : ## C Primer Plus Solutions ##
+C Primer Plus Solutions
+=======================
 Solutions to some of the exercises in the book C Primer Plus.
 
-Markup : ## Introduction ##
-
+About
+=====
 I am currently reading the book C Primer Plus. Will put my solutions to
 exercises in the book here. Might be usefuel to others that are reading the book and it forces me to learn Git.
 
