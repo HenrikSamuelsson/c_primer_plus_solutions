@@ -11,7 +11,8 @@
  *  \return 0 upon successful execution.
  *  \note Leap years are not handled.
  */
-int main(void) {
+int main(void)
+{
 	int ageInYears, ageInDays;
 
 	ageInYears = 40;
