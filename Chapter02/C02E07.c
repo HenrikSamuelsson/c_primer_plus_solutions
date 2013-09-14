@@ -17,6 +17,8 @@ int main(void)
 	printf("starting now:\n");
 	oneThree();
 	printf("done!\n");
+
+	return EXIT_SUCCESS;
 }
 
 /**
