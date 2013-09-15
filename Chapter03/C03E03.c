@@ -1,7 +1,7 @@
 /**
  * \file C03E03.c
  * \author Henrik Samuelsson
-  */
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
