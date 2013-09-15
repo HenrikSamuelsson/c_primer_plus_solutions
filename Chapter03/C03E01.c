@@ -13,7 +13,6 @@
  *        edge regarding number sizes that the system can handle correctly.
  * \return 0 upon successful execution.
  */
-
 int main(void) {
 	int tooBigInt, raised;
 	float biggestFloat = FLT_MAX;
@@ -35,10 +34,8 @@ int main(void) {
 	printf("Underflow result = %e\n\n", tooSmall);
 
 	raised = fetestexcept ( FE_UNDERFLOW | FE_OVERFLOW);
-
 	if (raised & FE_OVERFLOW)
 		printf("Overflow in float calculations detected!\n");
-
 	if (raised & FE_UNDERFLOW)
 		printf("Underflow in float calculations detected!\n");
 
