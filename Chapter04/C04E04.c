@@ -1,5 +1,5 @@
 /**
- * \file C04E02.c
+ * \file C04E04.c
  * \author Henrik Samuelsson
  */
 #include <stdio.h>
@@ -19,7 +19,7 @@ int main(void)
 	scanf("%s", name);
 	printf("Enter your height in centimeters: ");
 	scanf("%f", &heightCm);
-	printf("%s, you are %.2f meters tall.\n", name, heightCm/100);
+	printf("%s, you are %.2f meters tall.\n", name, heightCm / 100);
 
 	return EXIT_SUCCESS;
 }
