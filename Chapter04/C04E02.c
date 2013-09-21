@@ -15,10 +15,10 @@ int main(void)
 
 	printf("Enter your name: ");
 	scanf("%s", name);
-	printf("\"%s\"\n", name);		// a. Prints in double quotation marks.
-	printf("\"%-20s\"\n", name);	// b. Prints in a field 20 characters wide.
-	printf("\"%20s\"\n", name);		// c. Left justified in 20 characters field.
-	printf("\"%s   \"\n", name);	// d. Adds 3 spaces at the end.
+	printf("\"%s\"\n", name);    // a. Prints in double quotation marks.
+	printf("\"%-20s\"\n", name); // b. Prints in a field 20 characters wide.
+	printf("\"%20s\"\n", name);  // c. Left justified in 20 characters field.
+	printf("\"%s   \"\n", name); // d. Adds 3 spaces at the end.
 
 	return EXIT_SUCCESS;
 }
