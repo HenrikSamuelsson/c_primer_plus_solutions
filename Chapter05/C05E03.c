@@ -8,7 +8,7 @@
 #define DAYS_IN_A_WEEK 7
 
 /**
- * \brief Coverts number of days to weeks and days.
+ * \brief Converts number of days to weeks and days.
  * \return 0 upon successful execution.
  */
 int main(void)
