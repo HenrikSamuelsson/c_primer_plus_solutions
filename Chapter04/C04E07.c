@@ -30,8 +30,8 @@ int main(void)
 	litersPer100Km = 100 * liters / km;
 
 	// Present the result.
-	printf("Miles per gallons: %0.1f\n", milesPerGallon);
-	printf("Liter per 100 km: %0.1f\n", litersPer100Km);
+	printf("Miles per gallon: %0.1f\n", milesPerGallon);
+	printf("Liters per 100 km: %0.1f\n", litersPer100Km);
 
 	return EXIT_SUCCESS;
 }
