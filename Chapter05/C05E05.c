@@ -15,11 +15,11 @@ int main(void)
 
 	count = 0;
 	sum = 0;
-	printf("Enter a number: ");
+	printf("Enter an integer: ");
 	scanf("%d", &max);
 	while(count++ < max)
 		sum = sum + count;
-	printf("sum = %d\n", sum);
+	printf("The sum of all the integers up to %d is %d.\n", max, sum);
 
 	return EXIT_SUCCESS;
 }
