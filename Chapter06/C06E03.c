@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 /**
  * \brief Prints a letter pattern using nested loops.
  * \note Assumes that a character encoding with sequential codes for the letters
@@ -17,7 +16,6 @@ int main(void)
 	char start, end, current;
 
 	start = 'F';
-
 	for(end = 'F'; end >= 'A'; end--)
 	{
 		for(current = start; current >= end; current--)
