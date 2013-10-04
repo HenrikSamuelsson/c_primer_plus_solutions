@@ -1,5 +1,5 @@
 /**
- * \file C06E07.c
+ * \file C06E03.c
  * \author Henrik Samuelsson
  */
 #include <stdio.h>
