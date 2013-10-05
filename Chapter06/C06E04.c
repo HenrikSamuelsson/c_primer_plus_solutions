@@ -11,7 +11,7 @@
  */
 int main(void)
 {
-	char input;	      // The letter that the user enters.
+	char input;       // The letter that the user enters.
 	char rowCount;    // Keeps track of how many rows there are left to print.
 	char spaceCount;  // Keeps track of how many spaces to print.
 	char ascCount;    // Keeps track of ascending letters to print.
