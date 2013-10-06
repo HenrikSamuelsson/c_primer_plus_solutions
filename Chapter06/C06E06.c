@@ -7,7 +7,7 @@
 #include <string.h>
 
 /**
- * \brief Takes a word as input and prints it backwards;
+ * \brief Takes a word as input and prints it backwards.
  * \return 0 upon successful execution.
  */
 int main(void)
@@ -17,8 +17,8 @@ int main(void)
 
 	printf("Enter a word: ");
 	scanf("%s", &word[0]);
-	for(length = strlen(word); length >= 0; length--)
-			printf("%c", word[length]);
+	for(length = strlen(word); length > 0; length--)
+			printf("%c", word[length-1]);
 
 	return EXIT_SUCCESS;
 }
