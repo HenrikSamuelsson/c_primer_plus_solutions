@@ -7,7 +7,7 @@
 
 
 /**
- * \brief Mathematical summation numbers in a range.
+ * \brief Mathematical summation of numbers in a range.
  * \return 0 upon successful execution.
  */
 int main(void)
