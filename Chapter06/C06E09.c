@@ -5,7 +5,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 /**
  * \brief Mathematical summation of numbers in a range.
  * \return 0 upon successful execution.
