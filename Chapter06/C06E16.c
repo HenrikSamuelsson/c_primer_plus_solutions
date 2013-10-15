@@ -18,7 +18,6 @@ int main(void)
 	double capital;
 	int yearsPassed;
 
-
 	capital = START_CAPITAL;
 	while(capital > 0)
 	{
