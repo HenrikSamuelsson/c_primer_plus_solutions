@@ -25,9 +25,9 @@ int main(void)
 	printf("End the input with # followed by the enter key.\n");
 	while ((ch = getchar()) != STOP)
 	{
-		if (isprint(ch))
-		{
-			printf("'%c'->%d ", ch, ch);
+	    if (isprint(ch))
+	    {
+		printf("'%c'->%d ", ch, ch);
 	        if (++i % NEW_LINE_TIME == 0)
 	        	printf("\n");
 	    }
