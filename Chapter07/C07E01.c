@@ -7,9 +7,10 @@
 
 /**
  * \brief Counts different types of characters in the user input.
- * \note It is necessary to press enter after the #. The reason for
- *       this is probably because the input stream is buffered and
- *       enter will flush the buffer.
+ * \note It was necessary to press enter after the # on the system
+ *       where this program was tested. The reason for this is 
+ *       probably because the input stream is buffered and enter 
+ *       will flush the buffer.
  * \return 0 upon successful execution.
  */
 int main(void)
