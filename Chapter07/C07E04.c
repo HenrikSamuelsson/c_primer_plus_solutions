@@ -18,7 +18,7 @@ int main(void)
 	char ch;
 	int dotCount = 0;
 	int exlCount = 0;
-	printf("Input some characters\nEnd the input with # followed by the enter "
+	printf("Input some characters.\nEnd the input with # followed by the enter "
 		   "key.\n");
 	while ((ch = getchar()) != STOP)
 	{
