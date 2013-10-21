@@ -9,7 +9,7 @@
 #include <stdbool.h>
 
 /**
- * \brief Calculates the average length of words from sentence input by the
+ * \brief Calculates the average length of the words in input text from a
  *        user.
  * \details Will only count letters A to Z or a to z. Digits and punctuation
  *          characters are ignored. Any a whitespace character (space, tab,
