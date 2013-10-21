@@ -35,11 +35,11 @@ int main(void)
                 else if (isalpha(ch))
                 {
                 	lCt++;
-        			if(!inWord)
-        			{
-        				inWord = true;
-        				wCt++;
-        			}
+        		if(!inWord)
+        		{
+        			inWord = true;
+        			wCt++;
+        		}
                 }
         average = wCt > 0 ? (float) lCt/wCt : 0;
         printf("The average number of letters in the words was: %.2f\n",
