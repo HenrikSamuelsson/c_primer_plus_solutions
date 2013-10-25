@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 #define BASE_HOURS 40            // Hours to work before overtime starts.
-#define PAY 10				     // Basic pay rate (dollar/hour).
+#define PAY 10                   // Basic pay rate (dollar/hour).
 #define OVER_PAY_FACTOR 1.5      // Pay gets scaled up on over time.
 #define TAX_A_BREAK_POINT 300    // Max earning for lowest tax rate.
 #define TAX_B_BREAK_POINT 150    // Max additional earning for tax A.
