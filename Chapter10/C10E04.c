@@ -33,7 +33,7 @@ int main(void)
 		testArray[i] = MIN + rand() / div;
 	}
 
-	// Call getMaxIndex to find the largest value int the array.
+	// Call getMaxIndex to find index of the largest value int the array.
 	maxIndex = getArrayMax(testArray, LENGTH);
 
 	// Print the index of the largest value and the content of the array to be
@@ -50,10 +50,10 @@ int main(void)
 }
 
 /**
- * \brief Finds the maximum value in an array that hold some numbers.
+ * \brief Finds the index of the maximum value in an array that hold some numbers.
  * \param array Pointer to the start of the array.
  * \param length The number of values stored in the array.
- * \return The largest value found in the array.
+ * \return The index of the largest value found in the array.
  */
 int getArrayMax(const double array[], int length)
 {
