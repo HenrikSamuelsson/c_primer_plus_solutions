@@ -10,7 +10,7 @@
 #define LENGTH 16
 #define RAND_RANGE 100
 
-int getArrayMax(int array[], int length);
+int getArrayMax(const int array[], int length);
 
 /**
  * \brief Entry point of a program used to test the getArrayMax function.
@@ -51,7 +51,7 @@ int main(void)
  * \param length The number of values stored in the array.
  * \return The largest value found in the array.
  */
-int getArrayMax(int array[], int length)
+int getArrayMax(const int array[], int length)
 {
 	int i;
 	int max = INT_MIN;
