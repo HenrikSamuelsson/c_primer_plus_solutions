@@ -19,6 +19,7 @@ void chline(char ch, int i, int j);
 int main(void)
 {
 	chline(CH, I, J);
+	
 	return EXIT_SUCCESS;
 }
 
