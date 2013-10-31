@@ -26,11 +26,11 @@ int main(void)
 }
 
 /**
- * \brief Fetches a number characters from input and stores them.
+ * \brief Fetches a number characters from input and stores them in an array.
  * \param str Pointer to an array where the input will be stored.
  * \param n The length of the array where the input will be stored.
- * \note The amount of input is n-1 since the last space in the array is used
- *       for storing a terminating null character.
+ * \note The amount of input stored is n-1 characters since the last space 
+ *       in the array is used for storing a terminating null character.
  */
 void getChars(char * str, int n)
 {
