@@ -5,11 +5,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-#include <math.h>
-
-#define STOP '#'
-#define FIRST 'e'
-#define SECOND 'i'
 
 /**
  * \brief Lists prime numbers up to a user defined limit.
@@ -21,21 +16,24 @@ int main(void) {
 	int div;
 	bool isPrime;
 
-	printf("Enter a positive integer to generate a list with all the prime "
+	printf("Enter a positive integer to generate a list with all the prime\n"
 			"numbers lower than that integer: ");
 	scanf("%d", &limit);
 	for (i = 2; i <= limit; i++)
 	{
-		for (div = 2, isPrime = true; div < floor(sqrt(i)) || !isPrime; div++)
+		isPrime = true;
+		for (div = 2; div * div <= i; div++)
 		{
-				if (i % div == 0)
-				{
-					isPrime = false;
-				}
+			if (i % div == 0)
+			{
+				isPrime = false;
+				break;
+			}
 		}
-		if(isPrime)
+		if (isPrime)
 			printf("%d\n", i);
 	}
 
 	return EXIT_SUCCESS;
 }
+
