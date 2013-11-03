@@ -32,7 +32,7 @@ char get_first(void)
 {
     int ch;
 
-    // Loop until a non white-space character is found.
+    // Loop until a non white-space character is found and store it in ch.
     while (isspace(ch = getchar()))
     	continue;
 
