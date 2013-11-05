@@ -4,7 +4,6 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 /**
  * \brief Calculates tax based on income and marital status.
