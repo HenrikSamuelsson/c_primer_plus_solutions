@@ -69,7 +69,7 @@ int main(void)
 				break;
 			default:
 				printf("Invalid input, please choose one of the options "
-						"A, B, C, D or Q in the menu.\n");
+						"A, B, C, D, or Q in the menu.\n");
 			}
 			while(getchar() != '\n')
 				continue;
