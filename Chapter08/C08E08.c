@@ -28,7 +28,6 @@ int main(void)
 
 	while(1)
 	{
-
 		printf("Enter the operation of your choice:\n");
 		printf("%-17s%s\n", "a. add", "s. subtract");
 		printf("%-17s%s\n", "m. multiply", "d. divide");
