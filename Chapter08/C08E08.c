@@ -10,7 +10,7 @@
  * \brief Arithmetic operations based on user input.
  *
  * \note The program should probably be broken into functions, but this topic is
- *       not introduced until the following chapter did not do this to since it
+ *       not introduced until the following chapter so did not do this to since it
  *       might confuse beginners in c.
  *
  * \warning Using scanf with the notANumber string is unsafe since it will
