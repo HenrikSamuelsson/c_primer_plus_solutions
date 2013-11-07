@@ -68,8 +68,8 @@ int main(void)
 				return EXIT_SUCCESS;    // End the program.
 				break;
 			default:
-				printf("Invalid input, please choose from the options 1 to 5 "
-						"in the menu.\n");
+				printf("Invalid input, please choose one of the options "
+						"A, B, C, D or Q in the menu.\n");
 			}
 			while(getchar() != '\n')
 				continue;
