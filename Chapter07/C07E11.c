@@ -25,13 +25,13 @@
 int main(void)
 {
 	char choice;
-	bool validChoice;
+	bool orderDone, validChoice, validAmount;
+	double temp;
 	double artichokes = 0;
 	double beets = 0;
 	double carrots = 0;
 
 	printf("***************************************************************\n");
-	printf("  Choose vegetables from the menu.\n");
 	printf("\n");
 	printf("  (a) Artichokes\n");
 	printf("  (b) Beets\n");
@@ -40,35 +40,75 @@ int main(void)
 	printf("  (q) Done ordering\n");
 	printf("\n");
 	printf("***************************************************************\n");
-
-	validChoice = false;
-	while(!validChoice)
+	printf("Make a choice from the menu: ");
+	orderDone = false;
+	while(!orderDone)
 	{
-		choice = getchar();
-		switch(choice)
+		// Get a choice of vegetable from the user.
+		validChoice = false;
+		while(!validChoice)
 		{
-		case 'a':
-		case 'A':
-			validChoice = true;
-			break;
-		case 'b':
-		case 'B':
-			validChoice = true;
-			break;
-		case 'c':
-		case 'C':
-			validChoice = true;
-			break;
-		case 'q':
-		case 'Q':
-			validChoice = true;
-			break;
-		default:
-			printf("Invalid input, please choose from the options (a, b, c, or "
-					"q) in the menu.\n");
+			choice = getchar();
+			while(getchar() != '\n')
+				continue;
+
+			switch(choice)
+			{
+			case 'a':
+			case 'A':
+				printf("Enter amount of artichokes in pounds: ");
+				validChoice = true;
+				break;
+			case 'b':
+			case 'B':
+				printf("Enter amount of beets in pounds: ");
+				validChoice = true;
+				break;
+			case 'c':
+			case 'C':
+				printf("Enter amount of carrots in pounds: ");
+				validChoice = true;
+				break;
+			case 'q':
+			case 'Q':
+				validChoice = true;
+				orderDone = true;
+				break;
+			default:
+				printf("Invalid input, please choose from one of a, b, c, or q "
+						"from the menu: ");
+			}
+		}
+
+		if(!orderDone)
+		{
+			// Get the amount of vegetables.
+			while(scanf ("%lf", &temp) != 1)
+			{
+				printf("Please enter a number, such as 40, 3, or 2.5: ");
+				while(getchar() != '\n')
+					continue;
 			}
 			while(getchar() != '\n')
-					continue;
+				continue;
+
+			switch(choice)
+			{
+			case 'a':
+			case 'A':
+				artichokes = temp;
+				break;
+			case 'b':
+			case 'B':
+				beets = temp;
+				break;
+			case 'c':
+			case 'C':
+				carrots = temp;
+				break;
+			}
+		printf("Make another choice from the menu: ");
+		}
 	}
 
 	return EXIT_SUCCESS;
