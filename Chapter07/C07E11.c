@@ -82,7 +82,7 @@ int main(void)
 
 		if(!orderDone)
 		{
-			// Get the amount of vegetables.
+			// Get the amount of the chosen vegetable.
 			while(scanf ("%lf", &temp) != 1)
 			{
 				printf("Please enter a number, such as 40, 3, or 2.5: ");
@@ -92,6 +92,7 @@ int main(void)
 			while(getchar() != '\n')
 				continue;
 
+			// Store the amount chosen.
 			switch(choice)
 			{
 			case 'a':
@@ -110,6 +111,13 @@ int main(void)
 		printf("Make another choice from the menu: ");
 		}
 	}
+
+	// User is done ordering. Calculate and present the cost of the order.
+	printf("\nARTICHOKES\n");
+	printf("    cost per pound  %20.2lf\n", ARTICHOKES_PRICE);
+	printf("    pounds ordered  %20.2lf\n", artichokes);
+
+	getchar();
 
 	return EXIT_SUCCESS;
 }
