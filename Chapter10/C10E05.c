@@ -7,7 +7,7 @@
 
 #define LENGTH 10
 
-double difference(double arr[], int length);
+double difference(const double arr[], int length);
 
 /**
  * \brief Simple test of the of the difference function defined below.
@@ -30,7 +30,7 @@ int main(void)
  * \param length The number of values in the array.
  * \return The difference between the largest and the smallest value.
  */
-double difference(double arr[], int length)
+double difference(const double arr[], int length)
 {
 	double largest;
 	double smallest;
