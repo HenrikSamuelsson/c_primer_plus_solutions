@@ -13,7 +13,7 @@ Title: C Primer Plus, Fifth Edition
 Author: Stephen Prata  
 ISBN: 0-672-32696-5  
 
-A classic C programmming learning book aimed at beginners.
+A classic book aboutC programmming aimed at beginners.
 
 Exercise Solutions
 ------------------
